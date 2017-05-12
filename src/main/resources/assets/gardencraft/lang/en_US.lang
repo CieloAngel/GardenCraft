@@ -1,0 +1,8 @@
+# Items
+item.ItemIris.name=Iris
+item.ItemHydrangea.name=Hydrangea
+
+# Blocks
+tile.BlockIris.name=Iris Flower
+tile.BlockHydrangea.name=Hydrangea Flower
+tile.BlockRose.name=Rose Flower

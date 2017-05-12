@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gardencraft",
+  "name": "GardenCraft",
+  "description": "Adds numerous plants and flowers that can be used for decoration",
+  "version": "1.10.2-1.0",
+  "mcversion": "1.10.2",
+  "url": "http://cieloangel.net",
+  "updateUrl": "",
+  "authorList": ["CieloAngel"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

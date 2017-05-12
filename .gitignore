@@ -1,22 +1,31 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
+## Windows
+Thumbs.db
 
-# idea
-out
-*.ipr
-*.iws
-*.iml
-.idea
+## gradle
+/.gradle
+/build
 
-# gradle
-build
-.gradle
+## ForgeGradle
+/run
 
-# other
-eclipse
-run
+## eclipse
+/.settings
+/.metadata
+/.classpath
+/.project
+/eclipse
+/bin
+
+## intellij
+/out
+/.idea
+/atlassian-ide-plugin.xml
+/*.ipr
+/*.iws
+/*.iml
+
+## Private Stuffs
+/private.properties
+
+## Jars
+*.jar

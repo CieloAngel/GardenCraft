@@ -12,7 +12,7 @@ import net.minecraft.util.ResourceLocation;
 public class GuiVase extends GuiContainer {
 	
 	private InventoryPlayer playerInv;
-	private static final ResourceLocation BG_TEXTURE = new ResourceLocation(Reference.MOD_ID, "textures,gui/vase.png");
+	private static final ResourceLocation BG_TEXTURE = new ResourceLocation(Reference.MOD_ID, "gui/vase.png");
 	
 	// Constructor
 	// Pass the container to the super-constructor so that GuiContainer can render the slots and handle interaction with them

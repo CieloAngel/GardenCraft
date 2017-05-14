@@ -6,3 +6,6 @@ item.ItemHydrangea.name=Hydrangea
 tile.BlockIris.name=Iris Flower
 tile.BlockHydrangea.name=Hydrangea Flower
 tile.BlockRose.name=Rose Flower
+
+# Tile Entities
+tile.BlockVaseFlutedHClay.name=Fluted Hardened Clay Vase

@@ -1,20 +1,22 @@
 package net.cieloangel.gardencraft.init;
 
 import net.cieloangel.gardencraft.blocks.BlockBase;
+import net.cieloangel.gardencraft.blocks.BlockFlowerBase;
 import net.cieloangel.gardencraft.blocks.BlockModFlower;
 import net.cieloangel.gardencraft.blocks.BlockTileEntity;
 import net.cieloangel.gardencraft.blocks.vases.BlockVase;
 import net.cieloangel.gardencraft.items.ItemModelProvider;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockFlower;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModBlocks {
 	
-	public static Block iris;
-	public static Block hydrangea;
-	public static Block rose;
+	public static BlockFlower iris;
+	public static BlockFlower hydrangea;
+	public static BlockFlower rose;
 	public static BlockVase vaseFlutedClay;
 	
 	public static void init() {

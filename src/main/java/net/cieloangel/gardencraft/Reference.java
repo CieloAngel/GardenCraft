@@ -51,5 +51,25 @@ public class Reference {
 			return registryName;
 		}
 	}
+	
+	public static enum GardenCraftTileEntities {
+		VASE_FLUTED_H_CLAY("","");
+		
+		private String unlocalizedName;
+		private String registryName;
+		
+		GardenCraftTileEntities(String unlocalizedName, String registryName) {
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		
+		public String getUnlocalizedName() {
+			return unlocalizedName;
+		}
+		
+		public String getRegistryName() {
+			return registryName;
+		}
+	}
 
 }

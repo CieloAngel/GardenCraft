@@ -28,7 +28,7 @@ public class GardenCraft {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		System.out.println(Reference.NAME + " is warming up...");
+		System.out.println(Reference.NAME + " is planting its seeds...");
 		
 		ModBlocks.init();
 		ModItems.init();
@@ -38,7 +38,7 @@ public class GardenCraft {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		
-		System.out.println(Reference.NAME + " is getting going...");
+		System.out.println(Reference.NAME + " is growing strong...");
 		ModRecipes.init();
 		
 	}
@@ -46,7 +46,7 @@ public class GardenCraft {
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
 		
-		System.out.println(Reference.NAME + " is finishing up...");
+		System.out.println(Reference.NAME + " is ready for harvesting...");
 	}
 
 }
